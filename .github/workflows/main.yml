@@ -15,3 +15,5 @@ jobs:
         with:
           token: ${{ secrets.PERSONAL_TOKEN }}
           owner: github
+          base: master
+          head: master
